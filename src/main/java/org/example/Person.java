@@ -1,5 +1,6 @@
 package org.example;
 
+import java.sql.Array;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
@@ -53,6 +54,24 @@ public class Person {
         parent.setChildren(kids);
     }
 
+    public String getGrandchildren(Person child) {
+        ArrayList<Person> grandchildren = new ArrayList<>();
+        String outcome = null;
+        grandchildren = child.getChildren();
+        if(grandchildren.size() > 0 ){
+            for (int i = 0; i < grandchildren.size(); i++) {
+               outcome = grandchildren.get(i).getName() + " ";
+            }
+        } else {
+            outcome = child.getChildren().get(0).getName();
+        }
+        return outcome;
+    }
+
+    public String getGrandparents(Person parent){
+        return   parent.getFather().getName() + " and " + parent.getMother().getName();
+    }
+
     public void addPet(Person person, Pet pet) {
         ArrayList<Pet> pets = new ArrayList<>();
         if (person.getPets() != null) {
@@ -61,8 +80,6 @@ public class Person {
         pets.add(pet);
         person.setPets(pets);
     }
-
-
 
     public void addSibling(Person person, Person sibling) {
         ArrayList<Person> family = new ArrayList<>();
@@ -133,6 +150,7 @@ public class Person {
     public void setFather(Person father) {
         this.father = father;
     }
+
 
     public ArrayList<Person> getSiblings() {
         return siblings;

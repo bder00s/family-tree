@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="27dc61bf-5271-471d-8c67-1a965480715a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/PersonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/PetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/PetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/PersonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/example/PersonTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,21 +34,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -60,7 +60,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PetTest.getName">
+  <component name="RunManager" selected="JUnit.PersonTest.getGrandchildren">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="family-tree" />
@@ -74,7 +74,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonTest.addParents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PersonTest.addChildToChildren" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="family-tree" />
       <extension name="coverage">
         <pattern>
@@ -84,13 +84,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.PersonTest" />
-      <option name="METHOD_NAME" value="addParents" />
+      <option name="METHOD_NAME" value="addChildToChildren" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonTest.getName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PersonTest.addSibling" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="family-tree" />
       <extension name="coverage">
         <pattern>
@@ -100,13 +100,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.PersonTest" />
-      <option name="METHOD_NAME" value="getName" />
+      <option name="METHOD_NAME" value="addSibling" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PetTest.getName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PersonTest.getGrandchildren" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="family-tree" />
       <extension name="coverage">
         <pattern>
@@ -115,8 +115,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.PetTest" />
-      <option name="METHOD_NAME" value="getName" />
+      <option name="MAIN_CLASS_NAME" value="org.example.PersonTest" />
+      <option name="METHOD_NAME" value="getGrandchildren" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonTest.getGrandparents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="family-tree" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.PersonTest" />
+      <option name="METHOD_NAME" value="getGrandparents" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -124,10 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PetTest.getName" />
-        <item itemvalue="JUnit.PersonTest.getName" />
-        <item itemvalue="JUnit.PersonTest.addParents" />
+        <item itemvalue="JUnit.PersonTest.getGrandchildren" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.PersonTest.getGrandparents" />
+        <item itemvalue="JUnit.PersonTest.addChildToChildren" />
+        <item itemvalue="JUnit.PersonTest.addSibling" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +156,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679834781833</updated>
-      <workItem from="1679834783667" duration="9374000" />
+      <workItem from="1679834783667" duration="9742000" />
+      <workItem from="1679913444426" duration="11280000" />
     </task>
     <servers />
   </component>
